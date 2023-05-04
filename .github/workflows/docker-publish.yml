@@ -45,4 +45,4 @@ jobs:
         with:
           context: ${{ github.event.inputs.variant }}
           push: true
-          tags: ghcr.io//${{ github.repository}}:${{ github.event.inputs.variant }}
+          tags: ghcr.io/${{ github.repository}}:${{ github.event.inputs.variant }}
