@@ -9,6 +9,7 @@ on:
         description: Container variant to build
         options:
           - rust-1.69.0-alsa
+          - rust-1.73.0-alsa
 
 env:
   # github.repository as <account>/<repo>
