@@ -12,6 +12,7 @@ on:
           - rust-1.73.0-alsa
           - rust-1.80.0-alsa
           - rust-1.81.0-alsa
+          - rust-1.85.0-alsa
 
 env:
   # github.repository as <account>/<repo>
