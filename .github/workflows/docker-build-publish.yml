@@ -14,6 +14,7 @@ on:
           - rust-1.81.0-alsa
           - rust-1.85.0-alsa
           - rust-1.86.0-alsa
+          - rust-1.88.0-alsa
 
 env:
   # github.repository as <account>/<repo>
