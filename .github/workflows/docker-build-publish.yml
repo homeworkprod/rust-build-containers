@@ -1,4 +1,4 @@
-name: Docker
+name: Docker build + publish
 
 on:
   # Allow manual workflow triggering from the "Actions" tab.
