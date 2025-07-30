@@ -16,6 +16,8 @@ on:
           - rust-1.86.0-alsa
           - rust-1.88.0-alsa
 
+run-name: Build and publish Docker image for variant ${{ inputs.variant }}
+
 env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}_${{ github.event.inputs.variant }}
